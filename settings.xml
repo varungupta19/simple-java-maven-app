@@ -1,10 +1,7 @@
-<repository>
+<server>
   <id>dev-azure-com-necindiad-test-art</id>
-  <url>https://pkgs.dev.azure.com/necindiad/_packaging/test-art/maven/v1</url>
-  <releases>
-    <enabled>true</enabled>
-  </releases>
-  <snapshots>
-    <enabled>true</enabled>
-  </snapshots>
-</repository>
+  <username>test-art</username>
+  <!-- Treat this auth token like a password. Do not share it with anyone, including Microsoft support. -->
+  <!-- The generated token expires on or before 11/6/2019 -->
+  <password>ftfctkqorrkouwhnr2ufq7hq3gunk37f5bu5dtwos7wggs2czdra</password>
+</server>
