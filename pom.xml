@@ -34,16 +34,14 @@
       </plugin>
     </plugins>
   </build>
-  <distributionManagement>
-	      <repository>
-		              <id>central</id>
-			              <name>ip-172-31-85-81-releases</name>
-				              <url>http://ec2-52-90-115-154.compute-1.amazonaws.com/artifactory/jenkins-integration</url>
-					          </repository>
-						      <snapshotRepository>
-							              <id>snapshots</id>
-								              <name>ip-172-31-85-81-snapshots</name>
-									              <url>http://ec2-52-90-115-154.compute-1.amazonaws.com/artifactory/jenkins-integration</url>
-										          </snapshotRepository>
-										  </distributionManagement>
+<repository>
+  <id>dev-azure-com-necindiad-test-art</id>
+  <url>https://pkgs.dev.azure.com/necindiad/_packaging/test-art/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
 </project>
