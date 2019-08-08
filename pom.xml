@@ -34,4 +34,16 @@
       </plugin>
     </plugins>
   </build>
+  <distributionManagement>
+	      <repository>
+		              <id>central</id>
+			              <name>ip-172-31-85-81-releases</name>
+				              <url>http://ec2-52-90-115-154.compute-1.amazonaws.com/artifactory/jenkins-integration</url>
+					          </repository>
+						      <snapshotRepository>
+							              <id>snapshots</id>
+								              <name>ip-172-31-85-81-snapshots</name>
+									              <url>http://ec2-52-90-115-154.compute-1.amazonaws.com/artifactory/jenkins-integration</url>
+										          </snapshotRepository>
+										  </distributionManagement>
 </project>
